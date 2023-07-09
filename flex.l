@@ -18,7 +18,7 @@ data (((0[1-9]|[12]{digito}|3[01])\/(01|03|05|07|08|10|12)\/(19{digito}{digito}|
 {brancos}   ;
 {dataBissexto} {count++; }
 {data} {count++; }
-
+.   ;
 
 %%
 
