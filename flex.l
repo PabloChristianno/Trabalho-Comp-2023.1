@@ -26,6 +26,5 @@ int main()
 {
     yyFlexLexer lexer;
     lexer.yylex();
-    printf("%d", count);
+    printf("%d\n", count);
 }
-

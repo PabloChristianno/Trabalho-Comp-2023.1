@@ -1,5 +1,5 @@
 
-#line 2 "lex.yy.cc"
+#line 3 "lex.yy.cc"
 
 #define  YY_INT_ALIGNED short int
 
@@ -467,9 +467,9 @@ static const flex_int16_t yy_chk[193] =
 #include <iostream>
 using std::cout;
 int count = 0;
-#line 470 "lex.yy.cc"
+#line 471 "lex.yy.cc"
 /* read only one input file */
-#line 472 "lex.yy.cc"
+#line 473 "lex.yy.cc"
 
 #define INITIAL 0
 
@@ -604,7 +604,7 @@ YY_DECL
 #line 16 "flex.l"
 
 
-#line 607 "lex.yy.cc"
+#line 608 "lex.yy.cc"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -687,7 +687,7 @@ YY_RULE_SETUP
 #line 23 "flex.l"
 ECHO;
 	YY_BREAK
-#line 690 "lex.yy.cc"
+#line 691 "lex.yy.cc"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1657,7 +1657,6 @@ int main()
 {
     yyFlexLexer lexer;
     lexer.yylex();
-    printf("%d", count);
+    printf("%d\n", count);
 }
-
 
