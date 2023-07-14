@@ -12,12 +12,14 @@ Trabalho da disciplina de compiladores - UnB
 
 Para compilar o projeto deve-se executar os seguintes comandos:
 
-flex lex.l && gcc -o prog lex.yy.c
+    flex lex.l && gcc -o prog lex.yy.c
 
-Para rodar ./prog
+Para rodar:
+
+    ./prog
 
 ## Como rodar os testes?
 
 Utilize o código a seguir para executar o código com os casos testes presente no projeto (test.txt, test2.txt, datas.txt)
 
-time ./prog < "arquivo_teste".txt
+    time ./prog < "arquivo_teste".txt
