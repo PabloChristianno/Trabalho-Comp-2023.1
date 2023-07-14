@@ -7,6 +7,7 @@ Trabalho da disciplina de compiladores - UnB
 | Matrícula | Nome Completo                 |
 |:---------:|:-----------------------------:|
 | 200042416 | Pablo Christianno Silva Guedes|
+| 170154319 | Philipe de Sousa Barros       |
 
 ## Como Compilar e Rodar?
 
