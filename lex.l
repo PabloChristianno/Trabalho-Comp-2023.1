@@ -19,8 +19,8 @@ data (((0[1-9]|[12][0-9]|3[01])\/(01|03|05|07|08|10|12)\/(19[0-9]|20([01][0-9]|[
 %%
 
 {brancos}   ;
-{dataBissexto} {count++; printf("Cadeia reconhecida: %s\n", yytext); }
-{data} {count++; printf("Cadeia reconhecida: %s\n", yytext);}
+{dataBissexto} {count++; }
+{data} {count++; }
 .   ;
 
 %%

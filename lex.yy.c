@@ -509,13 +509,14 @@ char *yytext;
 #line 1 "lex.l"
 /*
 Pablo Christianno Silva Guedes      200042416
+Philipe de Sousa Barros             170154319
 */
-#line 6 "lex.l"
+#line 7 "lex.l"
 #include <stdio.h>
 int count = 0;
-#line 516 "lex.yy.c"
+#line 517 "lex.yy.c"
 /* read only one input file */
-#line 518 "lex.yy.c"
+#line 519 "lex.yy.c"
 
 #define INITIAL 0
 
@@ -732,10 +733,10 @@ YY_DECL
 		}
 
 	{
-#line 18 "lex.l"
+#line 19 "lex.l"
 
 
-#line 738 "lex.yy.c"
+#line 739 "lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -795,30 +796,30 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 /* rule 1 can match eol */
 YY_RULE_SETUP
-#line 20 "lex.l"
+#line 21 "lex.l"
 ;
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 21 "lex.l"
-{count++; printf("Cadeia reconhecida: %s\n", yytext); }
+#line 22 "lex.l"
+{count++; }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 22 "lex.l"
-{count++; printf("Cadeia reconhecida: %s\n", yytext);}
+#line 23 "lex.l"
+{count++; }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 23 "lex.l"
+#line 24 "lex.l"
 ;
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 25 "lex.l"
+#line 26 "lex.l"
 ECHO;
 	YY_BREAK
-#line 821 "lex.yy.c"
+#line 822 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1823,7 +1824,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 25 "lex.l"
+#line 26 "lex.l"
 
 
 int main()
